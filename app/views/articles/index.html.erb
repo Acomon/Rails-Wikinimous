@@ -1,0 +1,13 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3">
+			<article>
+				<% @articles.each do |article|  %>
+				<h2> <%=link_to article.name, article_path(article)  %></h2>
+				<p> <%= article.context  %></p>
+				<%end%>
+			</article>
+
+		</div>
+	</div>
+</div>

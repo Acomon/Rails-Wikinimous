@@ -1,0 +1,22 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #333333;
+	background-color: white;
+}
+
+article {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 120%;
+}
+
+article a {
+	color: #428bca;
+	text-decoration: none;
+}
+
